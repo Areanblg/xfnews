@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xfnews-dev-service-article" />
+        <module name="xfnews-news-dev-service-admin" />
+        <module name="xfnews-dev-common" />
+        <module name="xfnews-dev-service-admin" />
+      </profile>
+      <profile name="Annotation profile for imooc-news-dev" enabled="true">
+        <sourceOutputDir name="../imooc-news-dev-service-files/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../imooc-news-dev-service-files/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xfnews-dev-service-files" />
+      </profile>
+      <profile name="Annotation profile for imooc-news-dev-service-api" enabled="true">
+        <sourceOutputDir name="../imooc-news-dev-service-api/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../imooc-news-dev-service-api/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xfnews-dev-service-api" />
+      </profile>
+      <profile name="Annotation profile for imooc-news-dev-service-user" enabled="true">
+        <sourceOutputDir name="../imooc-news-dev-service-user/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../imooc-news-dev-service-user/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xfnews-dev-service-user" />
+      </profile>
+      <profile name="Annotation profile for imooc-news-dev-model" enabled="true">
+        <sourceOutputDir name="../imooc-news-dev-model/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../imooc-news-dev-model/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xfnews-dev-model" />
+      </profile>
+      <profile name="Annotation profile for imooc-news-dev-service-article-html" enabled="true">
+        <sourceOutputDir name="../imooc-news-dev-service-article-html/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../imooc-news-dev-service-article-html/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xfnews-dev-service-article-html" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mybatis-generator-database" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mybatis-generator-database" options="" />
+      <module name="xfnews-dev-common" options="-parameters" />
+      <module name="xfnews-dev-model" options="-parameters" />
+      <module name="xfnews-dev-service-admin" options="-parameters" />
+      <module name="xfnews-dev-service-api" options="-parameters" />
+      <module name="xfnews-dev-service-article" options="-parameters" />
+      <module name="xfnews-dev-service-article-html" options="-parameters" />
+      <module name="xfnews-dev-service-files" options="-parameters" />
+      <module name="xfnews-dev-service-user" options="-parameters" />
+      <module name="xfnews-news-dev-service-admin" options="-parameters" />
+    </option>
+  </component>
+</project>
